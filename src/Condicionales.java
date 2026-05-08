@@ -8,7 +8,11 @@ public class Condicionales {
        } else { 
         System.out.println(numero2 + "es mayor que" + numero1);
        }
-      
+      //condicional para verificar munero par 
+      if (numero1 % 2 == 0 ){ 
+        System.out.println(numero1+"es par.");
+     } else 
+        system.out.println(numero2+"es impar.");
         }
     }
        
