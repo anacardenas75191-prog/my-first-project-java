@@ -12,7 +12,7 @@ public class Condicionales {
       if (numero1 % 2 == 0 ){ 
         System.out.println(numero1+"es par.");
      } else 
-        system.out.println(numero2+"es impar.");
+        System.out.println(numero2+"es impar.");
         }
     }
        

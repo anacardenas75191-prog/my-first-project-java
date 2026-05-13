@@ -17,6 +17,6 @@ public static  void main(String[] args) {
  System.out.println(nombre_estudiante "\n" + edad +"\n "+ peso);
 
 System.out.println("me llamo " + nombre_estudiante "tengo" + edad + "años y peso " + peso "kg");
-System.out.println ("estudiante_activo" +texto_estudaiante_activo ))
+System.out.println ("estudiante_activo" +texto_estudaiante_activo )
 }  
 }
