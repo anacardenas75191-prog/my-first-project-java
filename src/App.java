@@ -13,10 +13,10 @@ public static  void main(String[] args) {
  texto_estudaiante_activo = "no";
 }  
  System.out.println(nombre_estudiante+" "+ edad +" "+ peso);
- System.out.println(nombre_estudiante "\n" + edad +"\n "+ peso);
- System.out.println(nombre_estudiante "\n" + edad +"\n "+ peso);
+ System.out.println(nombre_estudiante + "\n" + edad +"\n "+ peso);
+ System.out.println(nombre_estudiante + "\n "+ edad +"\n "+ peso);
 
-System.out.println("me llamo " + nombre_estudiante "tengo" + edad + "años y peso " + peso "kg");
-System.out.println ("estudiante_activo" +texto_estudaiante_activo )
+System.out.println("me llamo " + nombre_estudiante + edad + "años y peso " + peso + "kg");
+System.out.println ("estudiante_activo" +texto_estudaiante_activo );
 }  
 }

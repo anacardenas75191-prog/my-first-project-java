@@ -2,15 +2,15 @@ public class persona {
     // declara variables 
     static String nombre_persona = "ana";
     static String apellidps_persona = "cardenas";
-    int edad = 0;
-    char genero = 'f'  ;
-    float promedio_semestre = 3.9f 
-    boolean vive_manizales = true 
+     static int edad = 0;
+    static char genero = 'f'  ;
+    static float promedio_semestre = 3.9f 
+    static boolean vive_manizales = true  
 
     // crear metodos adicionales 
         
      static void imprimirNombre (){}
-        System.out.println(x:"informacion del estudiante:\nNombre completo" + nombre_persona + " " + apellidps_persona );
+        System.out.println(x:"informacion del estudiante:\nNombre completo" + nombre_persona + " " + apellidos_persona );
 
         
     }
@@ -26,8 +26,9 @@ public class persona {
     static void imprimirViveManzales(){
         if (vive_manizalesm == true ); {
             System.out.println(" vive en Manizales");
-        }else {
-            system.out.println("no vive en manizales");
+        }
+        else {
+            System.out.println("no vive en manizales");
         }
     }
     static void imprimirGenero(){ 

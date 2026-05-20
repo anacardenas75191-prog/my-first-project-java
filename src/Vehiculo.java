@@ -19,18 +19,20 @@ public class Vehiculo {
 
     }
 
-    static void apagar(){
+    static void apagar (){
         // no se puede apagar si ya esta apagado 
-     static void apagar() {
+     static void apagar () {
       if(!encendido)
         System.out.println("El vehiculo ya esta apagado ");
-     } else if (velocidad > 0 ); {
+     } else if (velocidad < 0 ){
+     } else  if (velocidad > 0 ); {
         System.out.println(" Vehiculo en movimiento ");
     
      } else if (velocidad < 0 ){
         System.out.println("valor invalido");
       }else 
-        System.out.println() 
+        System.out.println() {
+        
          
        }
        }
