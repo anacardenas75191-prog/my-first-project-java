@@ -5,7 +5,8 @@ import java.util.Scanner;
 public class EjercicioDos {
     public static void main(String[] args) {
 
-        Scanner scanner = new Scanner(System.in);
+        // Crear un lector para leer datos del teclado
+         Scanner scanner = new Scanner(System.in);
 
         final int LIMITE_PERSONAS = 8;
         final double LIMITE_PESO = 1000;
@@ -16,7 +17,7 @@ public class EjercicioDos {
 
         System.out.println("---- Ascensor Inteligente de Carga ----");
 
-        while (personas < LIMITE_PERSONAS && pesoTotal < LIMITE_PESO) {
+        while (personas < LIMITE_PERSONAS && (pesoTotal < LIMITE_PESO)) {
 
             System.out.print("Ingrese el peso de la persona: ");
             peso = scanner.nextDouble();
@@ -46,7 +47,7 @@ public class EjercicioDos {
         }
 
         // Resultados finales
-        System.out.println("\n=== RESULTADOS ===");
+        System.out.println("\n---- RESULTADOS ----");
         System.out.println("Personas que subieron: " + personas);
         System.out.println("Peso total real: " + pesoTotal + " kg");
 

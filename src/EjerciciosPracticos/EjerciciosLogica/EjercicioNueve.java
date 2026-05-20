@@ -1,8 +1,8 @@
 package EjerciciosPracticos.EjerciciosLogica;
-
 import java.util.Scanner;
 
 public class EjercicioNueve {
+
     public static void main(String[] args) {
 
         Scanner scanner = new Scanner(System.in);
@@ -39,10 +39,9 @@ public class EjercicioNueve {
         }
 
         // Resultado final
-        System.out.println("\n ----RESULTADO----");
+        System.out.println("\n=== RESULTADO ===");
         System.out.println("Cantidad total de picos detectados: " + picos);
 
         scanner.close();
     }
 }
-
